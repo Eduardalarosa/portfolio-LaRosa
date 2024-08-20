@@ -1,7 +1,13 @@
-:root{
+490:root{
 --cor-fundo:#9E005D;
   --cor-destaque:#ED34A0;
   --cor-texto:#FFFFFF;
+}
+
+*{
+  margin:0;
+  padding:0;
+  
 }
 
 body{
@@ -9,16 +15,20 @@ body{
   color:var(--cor-texto)
 }
 
-stong{
+.apresentacao{
+display:flex;
+margin:10%;
+  align-items: center;
+   justify-content: space-between;
+  
+}
+strong{
 color: var(--cor-estaque);  
 }
 
 a{
-  color: var(--cor-txto);
-  font-size: 20px;
-  text-decoration:nome;
-  background-color: var(--cor-destaque);
-  padding: 10px 15px;
-  margin:10px;
-  border-radius: 20px;
+  
+}
+.foto{
+  height:490px;
 }
